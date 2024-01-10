@@ -10441,7 +10441,7 @@
   "name": "Eclipse Subnet",
   "chainId": 17172,
   "shortName": "eclipse",
-  "networkId": 72172,
+  "networkId": 17172,
   "nativeCurrency": {
     "name": "Eclipse",
     "symbol": "ECLP",
