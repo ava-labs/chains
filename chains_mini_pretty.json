@@ -2153,9 +2153,9 @@
     "symbol": "BTT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bittorrentchain.io/"],
+  "rpc": ["https://rpc.bt.io"],
   "faucets": [],
-  "infoURL": "https:/bt.io"
+  "infoURL": "https://bt.io"
 }, {
   "name": "Arbitrum on xDai",
   "chainId": 200,
@@ -2456,9 +2456,9 @@
   "faucets": [],
   "infoURL": "https://fantom.foundation"
 }, {
-  "name": "Fraxchain Mainnet",
+  "name": "Fraxtal Mainnet",
   "chainId": 252,
-  "shortName": "fraxchain",
+  "shortName": "fraxtal",
   "networkId": 252,
   "nativeCurrency": {
     "name": "Frax Ether",
@@ -3327,6 +3327,19 @@
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
+  "name": "MetaChain Mainnet",
+  "chainId": 571,
+  "shortName": "metatime",
+  "networkId": 571,
+  "nativeCurrency": {
+    "name": "Metatime Coin",
+    "symbol": "MTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metatime.com"],
+  "faucets": [],
+  "infoURL": "https://metatime.com/en"
+}, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,
   "shortName": "metis-stardust",
@@ -3493,6 +3506,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.kalichain.com"],
+  "faucets": [],
+  "infoURL": "https://kalichain.com"
+}, {
+  "name": "Kalichain",
+  "chainId": 654,
+  "shortName": "kalichainMainnet",
+  "networkId": 654,
+  "nativeCurrency": {
+    "name": "kalis",
+    "symbol": "KALIS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.kalichain.com"],
   "faucets": [],
   "infoURL": "https://kalichain.com"
 }, {
@@ -6850,9 +6876,9 @@
   "faucets": ["https://faucet.uniultra.xyz"],
   "infoURL": "https://uniultra.xyz"
 }, {
-  "name": "Fraxchain Testnet",
+  "name": "Fraxtal Testnet",
   "chainId": 2522,
-  "shortName": "fraxchain-testnet",
+  "shortName": "fraxtal-testnet",
   "networkId": 2522,
   "nativeCurrency": {
     "name": "Frax Ether",
@@ -7744,6 +7770,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.chain.nexi.technology/", "https://chain.nexilix.com", "https://chain.nexi.evmnode.online"],
+  "faucets": [],
+  "infoURL": "https://www.nexi.technology/"
+}, {
+  "name": "Nexi V2 Mainnet",
+  "chainId": 4243,
+  "shortName": "NexiV2",
+  "networkId": 4243,
+  "nativeCurrency": {
+    "name": "NexiV2",
+    "symbol": "NEXI",
+    "decimals": 18
+  },
+  "rpc": ["https://chain.nexiv2.nexilix.com", "https://rpc.chainv1.nexi.technology"],
   "faucets": [],
   "infoURL": "https://www.nexi.technology/"
 }, {
@@ -13012,6 +13051,19 @@
   "faucets": [],
   "infoURL": "https://adilchain.io"
 }, {
+  "name": "Etherlink Testnet",
+  "chainId": 128123,
+  "shortName": "etlt",
+  "networkId": 128123,
+  "nativeCurrency": {
+    "name": "tez",
+    "symbol": "XTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://node.ghostnet.etherlink.com"],
+  "faucets": ["https://faucet.etherlink.com"],
+  "infoURL": "https://etherlink.com"
+}, {
   "name": "ETND Chain Mainnets",
   "chainId": 131419,
   "shortName": "ETND",
@@ -13087,6 +13139,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.jolnir.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz"
+}, {
+  "name": "Taiko Katla L2",
+  "chainId": 167008,
+  "shortName": "tko-katla",
+  "networkId": 167008,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.katla.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
@@ -14078,6 +14143,19 @@
   "faucets": [],
   "infoURL": "https://dodao.dev/"
 }, {
+  "name": "BlocX Mainnet",
+  "chainId": 879151,
+  "shortName": "blx",
+  "networkId": 879151,
+  "nativeCurrency": {
+    "name": "BlocX",
+    "symbol": "BLX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.blxscan.com/"],
+  "faucets": [],
+  "infoURL": "https://www.blocxchain.org/"
+}, {
   "name": "Vision - Mainnet",
   "chainId": 888888,
   "shortName": "vision",
@@ -14285,6 +14363,19 @@
   "rpc": ["https://rpc.zhejiang.ethpandaops.io"],
   "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
   "infoURL": "https://zhejiang.ethpandaops.io"
+}, {
+  "name": "Turkey Demo Dev",
+  "chainId": 1731313,
+  "shortName": "TDD",
+  "networkId": 1731313,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://devchain-poa.huabeizhenxuan.com"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "DeBank Testnet",
   "chainId": 2021398,
