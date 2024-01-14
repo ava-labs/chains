@@ -2607,6 +2607,14 @@
     "format": "png"
   }]
 }, {
+  "name": "tangle",
+  "icons": [{
+    "url": "ipfs://QmbxMNBTeQgch8t9GpWdLiS2R3wPYCzVRaX5kCQ4o5QU3w",
+    "width": 1600,
+    "height": 1600,
+    "format": "png"
+  }]
+}, {
   "name": "kalarscan",
   "icons": [{
     "url": "ipfs://bafkreidbzzv3lrwlzquhlpl4jcmr54sifhi5ufoek6olb5kjh3h3kvktdq",
@@ -3500,6 +3508,14 @@
     "url": "ipfs://QmSEsi71AdA5HYH6VNC5QUQezFg1C7BiVQJdx1VVfGz3g3",
     "width": 713,
     "height": 830,
+    "format": "png"
+  }]
+}, {
+  "name": "deelance",
+  "icons": [{
+    "url": "ipfs://Qmay2j8biuo5xLJL8NcLtrzubAEHuCWz65cdbKE1pSnGf6",
+    "width": 500,
+    "height": 500,
     "format": "png"
   }]
 }, {

@@ -1663,6 +1663,19 @@
   "faucets": [],
   "infoURL": "https://www.hecochain.com"
 }, {
+  "name": "ProtoJumbo Testnet",
+  "chainId": 129,
+  "shortName": "ProtoJumbo",
+  "networkId": 129,
+  "nativeCurrency": {
+    "name": "JNFTC",
+    "symbol": "JNFTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnode.jumbochain.org"],
+  "faucets": ["https://protojumbo.jumbochain.org/faucet-smart"],
+  "infoURL": "https://jumbochain.org"
+}, {
   "name": "Engram Testnet",
   "chainId": 131,
   "shortName": "tgram",
@@ -3128,7 +3141,7 @@
     "symbol": "AREA",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.areon.network"],
+  "rpc": ["https://mainnet-rpc.areon.network", "https://mainnet-rpc2.areon.network", "https://mainnet-rpc3.areon.network", "https://mainnet-rpc4.areon.network", "https://mainnet-rpc5.areon.network"],
   "faucets": [],
   "infoURL": "https://areon.network"
 }, {
@@ -3496,7 +3509,7 @@
   "faucets": [],
   "infoURL": "https://ace.fusionist.io/"
 }, {
-  "name": "Kalichain Mainnet",
+  "name": "Kalichain Testnet",
   "chainId": 653,
   "shortName": "kalichain",
   "networkId": 653,
@@ -7447,6 +7460,19 @@
   "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
   "faucets": [],
   "infoURL": "https://alveyscan.com/rpc"
+}, {
+  "name": "Tangle Testnet",
+  "chainId": 3799,
+  "shortName": "tTangle",
+  "networkId": 3799,
+  "nativeCurrency": {
+    "name": "Testnet Tangle Network Token",
+    "symbol": "tTNT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.tangle.tools", "https://testnet-rpc-archive.tangle.tools", "wss://testnet-rpc.tangle.tools", "wss://testnet-rpc-archive.tangle.tools"],
+  "faucets": ["https://faucet.tangle.tools"],
+  "infoURL": "https://docs.tangle.tools"
 }, {
   "name": "Firechain zkEVM Ghostrider",
   "chainId": 3885,
@@ -11490,6 +11516,19 @@
   "rpc": ["https://rpc.autobahn.network"],
   "faucets": [],
   "infoURL": "https://autobahn.network"
+}, {
+  "name": "Deelance Mainnet",
+  "chainId": 45510,
+  "shortName": "dee",
+  "networkId": 45510,
+  "nativeCurrency": {
+    "name": "Deelance",
+    "symbol": "DEE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.deelance.com"],
+  "faucets": ["https://faucet.deelance.com"],
+  "infoURL": "https://deelance.com"
 }, {
   "name": "Fusion Testnet",
   "chainId": 46688,
@@ -15582,9 +15621,9 @@
     "symbol": "PALM",
     "decimals": 18
   },
-  "rpc": ["https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"],
+  "rpc": ["https://palm-testnet.infura.io/v3/${INFURA_API_KEY}", "https://palm-testnet.public.blastapi.io"],
   "faucets": [],
-  "infoURL": "https://palm.io"
+  "infoURL": "https://palm.network"
 }, {
   "name": "Palm",
   "chainId": 11297108109,
@@ -15595,9 +15634,9 @@
     "symbol": "PALM",
     "decimals": 18
   },
-  "rpc": ["https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"],
+  "rpc": ["https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://palm-mainnet.public.blastapi.io"],
   "faucets": [],
-  "infoURL": "https://palm.io"
+  "infoURL": "https://palm.network"
 }, {
   "name": "Alphabet Mainnet",
   "chainId": 111222333444,
