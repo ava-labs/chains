@@ -1,0 +1,27 @@
+{
+  "name": "BattleTech Subnet",
+  "chain": "BATTLETECH",
+  "rpc": ["https://subnets.avax.network/battletech/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTLT Token",
+    "symbol": "BTLT",
+    "decimals": 16
+  },
+  "infoURL": "https://www.battle.tech",
+  "shortName": "battletech",
+  "chainId": 12898,
+  "networkId": 12898,
+  "explorers": [
+    {
+      "name": "BATTLETECH Explorer",
+      "url": "https://subnets-test.avax.network/battletech",
+      "standard": "EIP3091"
+    }
+  ]
+}
