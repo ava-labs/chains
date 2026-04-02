@@ -7,11 +7,11 @@ jobs:
   validate_icons:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
       with:
         fetch-depth: 0
 
-    - uses: nrwl/nx-set-shas@v3
+    - uses: nrwl/nx-set-shas@0e2d18b530b83b68263ff7b74e46b1ba300c83fc # v3
       id: last_successful_commit_push
       with:
         main-branch-name: master
@@ -19,14 +19,14 @@ jobs:
 
     - name: Get changed icons
       id: changed-icons
-      uses: step-security/changed-files@v45
+      uses: step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1 # v45
       with:
         files: _data/icons/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
     
     - name: Get changed icon blobs
       id: changed-icon-blobs
-      uses: step-security/changed-files@v45
+      uses: step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1 # v45
       with:
         files: _data/iconsDownload/*
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
@@ -109,11 +109,11 @@ jobs:
   validate_formatting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
       with:
         fetch-depth: 0
 
-    - uses: nrwl/nx-set-shas@v3
+    - uses: nrwl/nx-set-shas@0e2d18b530b83b68263ff7b74e46b1ba300c83fc # v3
       id: last_successful_commit_push
       with:
         main-branch-name: master
@@ -121,7 +121,7 @@ jobs:
 
     - name: Get changed files
       id: changed-files
-      uses: step-security/changed-files@v45
+      uses: step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1 # v45
       with:
         files: _data/*/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
